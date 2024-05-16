@@ -84,4 +84,4 @@ By incorporating user feedback and staying up-to-date with technological advance
 
 ---
 
-We hope this tool helps streamline your CO-PO mapping processes and enhances your educational assessments. For any questions or support, please contact us or open an issue in this repository. Thank you for using the Outcome Mapping Tool!
+I hope this tool helps streamline your CO-PO mapping processes and enhances your educational assessments. For any questions or support, please contact me or open an issue in this repository. Thank you for using the Outcome Mapping Tool!
