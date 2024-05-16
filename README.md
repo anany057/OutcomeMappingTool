@@ -16,7 +16,7 @@ Welcome to the Outcome Mapping Tool! This repository contains the source code fo
 The Outcome Mapping Tool is developed to simplify and automate the process of aligning COs with POs. This system is particularly useful in institutions that follow Outcome-Based Education (OBE) frameworks. By leveraging modern web technologies and data-driven algorithms, this tool ensures accurate and efficient CO-PO mappings, ultimately supporting better educational outcomes and program evaluations.
 
 ## Features
-- **User Authentication**: Secure login for faculty members to protect sensitive data.
+
 - **Upload Functionality**: Faculty can upload Excel templates containing student marks and CO data.
 - **Automated Mapping**: The system automatically maps COs to POs based on the uploaded data using sophisticated algorithms.
 - **Feedback Section**: A section for faculty to provide feedback and suggestions for system improvement.
