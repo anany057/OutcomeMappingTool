@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* .bodyp{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+} */
+.container{
+    display: flex;
+    background:#fff;
+    border-radius: 8px;
+    width: 200px;
+    padding: 50px 0;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin-left: -1rem;
+   backdrop-filter: blur(30);
+   height: 235px;
+
+   /* background: transparent; */
+   border:2px solid rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  */
+   backdrop-filter:blur(20px) ;
+
+}
+.circular-progress{
+    position: relative;
+    height: 80px;
+    width:80px;
+   
+    background-image:conic-gradient(red 3.6deg, #ededed 0deg);
+    border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+
+}
+
+
+.circular-progress2{
+
+    content:"";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+      box-shadow: 0 0 50px rgba(13, 13, 13, 0.2);
+      border-width: 2px;
+   
+    
+}
+
+
+
+.progress-value{
+    position: relative;
+    font-size: 20px;
+    /* 20px */
+    font-weight: 600;
+    color: red;
+    z-index: 100000;
+}
+.text{
+    font-size: 15px;
+    font-weight: 680;
+    /* font-smooth: 2px; */
+    color: black;
+    
+
+}

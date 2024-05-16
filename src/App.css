@@ -1,0 +1,201 @@
+
+.table {
+    width: 100%; 
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: xx-small;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Additional styling options */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-container {
+    max-width: 800px; /* Adjust as needed */
+    max-height: 20%;
+    margin: 0 auto; /* Center the table horizontally */
+    padding: 20px; /* Add some padding around the table */
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+
+  .table th.sortable {
+    position: relative;
+  }
+  
+  .table th.sortable:after {
+    content: "";
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.8rem;
+  }
+  
+  .table th.sortable.ascending:after {
+    content: "\25B2"; /* Up arrow */
+  }
+  
+  .table th.sortable.descending:after {
+    content: "\25BC"; /* Down arrow */
+  }
+  
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination a {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .pagination a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination .active {
+    background-color: #ddd;
+  }
+  
+
+  @media (max-width: 768px) {
+    .table-container {
+      max-width: 100%; /* Make the table fit the screen width */
+    }
+  
+    .table {
+      font-size: small; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .table th,
+    .table td {
+      white-space: nowrap; /* Prevent text wrapping on very small screens */
+      overflow: hidden;
+      text-overflow: ellipsis; /* Show ellipsis if text overflows */
+    }
+  }
+  
+
+  /* General button styles */
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* "Fetch Values" button styles */
+  .fetch-values-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .fetch-values-button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  
+  .expand-button { /* Applies to "Expand All" button */
+    margin-top: 10px;
+    background-color: #f1c40f; /* Light orange */
+    color: black;
+  }
+  
+  .expand-button:hover {
+    background-color: #e67e22; /* Darker orange on hover */
+  }
+  
+  /* Specific button colors */
+.collapse-button { /* Apply to "Collapse" and "Expand All" buttons */
+    background-color: #3498db; /* Light blue */
+    color: white;
+  }
+  
+  .collapse-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  .fetch-values-button { /* Apply to "Fetch Values" button */
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .fetch-values-button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+
+  /* for input */
+  /* Center the file input */
+.file-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Style the file input button */
+  .file-input-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff; /* Primary color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-input-button:hover {
+    background-color: #0056b3; /* Darker shade of primary color on hover */
+
+  }
+  
+  /* Hide the default file input */
+  .input-file {
+    display: none;
+  }
+
+  .button{
+    border-radius: 5px;
+  }
