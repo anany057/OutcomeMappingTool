@@ -28,7 +28,7 @@ The Outcome Mapping Tool is developed to simplify and automate the process of al
 
 ## Technology Stack
 - **Frontend**: HTML, CSS, JavaScript, ReactJS
-- **Backend**: NodeJS
+- **Backend**: FireBase
 - **Data Storage**: Local storage with Microsoft Excel for data input and output
 
 ## Installation
