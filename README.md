@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Outcome Mapping Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Outcome Mapping Tool! This repository contains the source code for an automated system designed to map Course Outcomes (COs) to Program Outcomes (POs) efficiently, reducing manual effort and enhancing accuracy in educational assessments.
 
-## Available Scripts
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Future Work](#future-work)
 
-In the project directory, you can run:
+## Overview
+The Outcome Mapping Tool is developed to simplify and automate the process of aligning COs with POs. This system is particularly useful in institutions that follow Outcome-Based Education (OBE) frameworks. By leveraging modern web technologies and data-driven algorithms, this tool ensures accurate and efficient CO-PO mappings, ultimately supporting better educational outcomes and program evaluations.
 
-### `npm start`
+## Features
+- **User Authentication**: Secure login for faculty members to protect sensitive data.
+- **Upload Functionality**: Faculty can upload Excel templates containing student marks and CO data.
+- **Automated Mapping**: The system automatically maps COs to POs based on the uploaded data using sophisticated algorithms.
+- **Feedback Section**: A section for faculty to provide feedback and suggestions for system improvement.
+- **Download Capability**: Faculty can download the mapped data in an Excel format.
+- **Notification System**: Faculty are notified upon completion of the CO-PO mapping process.
+- **User-Friendly Interface**: Intuitive and easy-to-use interface designed for faculty members.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology Stack
+- **Frontend**: HTML, CSS, JavaScript, ReactJS
+- **Backend**: NodeJS
+- **Data Storage**: Local storage with Microsoft Excel for data input and output
 
-### `npm test`
+## Installation
+To run the Outcome Mapping Tool locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/your-username/outcome-mapping-tool.git
+    cd outcome-mapping-tool
+    ```
 
-### `npm run build`
+2. **Install the dependencies**:
+    ```sh
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Start the server**:
+    ```sh
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will be available at `http://localhost:3000`.
+The application is also live at https://outcome-mapping-tool.vercel.app/#
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+1. **Login**: Faculty members need to log in using their credentials.
+2. **Upload Data**: Use the provided template to upload student marks and CO data.
+3. **Automated Mapping**: The system will process the data and map COs to POs.
+4. **Download Results**: Once the mapping is complete, download the Excel file with the results.
+5. **Provide Feedback**: Use the feedback section to share your experience and suggestions.
 
-### `npm run eject`
+## Contributing
+We welcome contributions to enhance the Outcome Mapping Tool. Here’s how you can contribute:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Future Work
+The Outcome Mapping Tool is a work in progress, and we plan to add several features and improvements:
+- **Scalability and Adaptability**: Optimize the system to handle diverse academic disciplines and larger datasets.
+- **Enhanced User Experience**: Continuous improvements to the UI for better usability.
+- **Integration of Feedback Mechanisms**: Develop a robust system for collecting and implementing user feedback.
+- **Predictive Analytics**: Incorporate predictive analytics to provide insights on potential CO-PO alignments and educational outcomes.
+- **Enhanced Security**: Further enhance security measures to ensure data confidentiality and integrity.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+By incorporating user feedback and staying up-to-date with technological advancements, we aim to continually improve the Outcome Mapping Tool and contribute positively to the OBE framework.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We hope this tool helps streamline your CO-PO mapping processes and enhances your educational assessments. For any questions or support, please contact us or open an issue in this repository. Thank you for using the Outcome Mapping Tool!
